@@ -157,3 +157,5 @@ SIMPLE_JWT = {
 }
 
 ADMIN_EMAIL = 'toskuef@yandex.ru'
+
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
