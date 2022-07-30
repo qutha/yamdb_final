@@ -30,9 +30,7 @@ class ReviewViewSet(viewsets.ModelViewSet):
     /titles/{title_id}/reviews/{review_id}/ - GET, PATCH, DELETE.
     """
     serializer_class = ReviewSerializer
-    permission_classes = (
-        IsAdminRole | IsModeratorRole | IsAuthor,
-    )
+    permission_classes = (IsAdminRole | IsModeratorRole | IsAuthor,)
     pagination_class = PageNumberPagination
 
     def get_queryset(self):
