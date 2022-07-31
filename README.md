@@ -2,6 +2,7 @@
 
 ![yamdb workflow](https://github.com/qutha/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
+Попробовать: 84.201.152.78
 ## Описание
 Проект YaMDb собирает отзывы пользователей на различные произведения.
 
