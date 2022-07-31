@@ -1,6 +1,6 @@
 # YaMDb
 
-![example workflow](https://github.com/qutha/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![yamdb workflow](https://github.com/qutha/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ## Описание
 Проект YaMDb собирает отзывы пользователей на различные произведения.
