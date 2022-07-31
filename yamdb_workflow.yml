@@ -19,8 +19,10 @@ jobs:
         run: |
           # pip upgrade
           python -m pip install --upgrade pip
+          
           # flake8
           pip install flake8 pep8-naming flake8-broken-line flake8-return flake8-isort
+          
           # requirements
           pip install -r api_yamdb/requirements.txt
           
@@ -87,6 +89,8 @@ jobs:
             echo POSTGRES_PASSWORD=${{ secrets.POSTGRES_PASSWORD }} >> .env
             echo DB_HOST=${{ secrets.DB_HOST }} >> .env
             echo DB_PORT=${{ secrets.DB_PORT }} >> .env
+            echo HOST=${{ secrets.HOST }} >> .env
+            echo DOMAIN=${{ secrets.DOMAIN }} >> .env
             sudo docker-compose up -d --build
 
   send_message:
